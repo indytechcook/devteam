@@ -85,6 +85,9 @@ export class AIToolService {
     if (argsLower.includes('/gemini') || argsLower.includes('gemini')) {
       return 'gemini';
     }
+    if (argsLower.includes('/auggie') || argsLower.includes('auggie')) {
+      return 'gemini';
+    }
     
     return 'none';
   }
